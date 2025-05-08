@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "qm31FqYtn2D6hAB1UXZ4HUHR3Aww970x1RjzZdbKpFQ=",
+  "Source": "DentalNUB.API",
+  "BasePath": "_content/DentalNUB.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

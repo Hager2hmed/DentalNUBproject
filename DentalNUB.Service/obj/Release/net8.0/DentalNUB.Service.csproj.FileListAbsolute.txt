@@ -1,0 +1,16 @@
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\bin\Release\net8.0\DentalNUB.Service.deps.json
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\bin\Release\net8.0\DentalNUB.Service.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\bin\Release\net8.0\DentalNUB.Service.pdb
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\bin\Release\net8.0\DentalNUB.Entities.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\bin\Release\net8.0\DentalNUB.Entities.pdb
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\DentalNUB.Service.csproj.AssemblyReference.cache
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\DentalNUB.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\DentalNUB.Service.AssemblyInfoInputs.cache
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\DentalNUB.Service.AssemblyInfo.cs
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\DentalNUB.Service.csproj.CoreCompileInputs.cache
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\DentalNUB.Service.sourcelink.json
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\DentalNU.2BC6473F.Up2Date
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\DentalNUB.Service.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\refint\DentalNUB.Service.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\DentalNUB.Service.pdb
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\ref\DentalNUB.Service.dll

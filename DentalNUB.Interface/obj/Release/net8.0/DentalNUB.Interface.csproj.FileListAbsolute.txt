@@ -1,0 +1,12 @@
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\bin\Release\net8.0\DentalNUB.Interface.deps.json
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\bin\Release\net8.0\DentalNUB.Interface.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\bin\Release\net8.0\DentalNUB.Interface.pdb
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\DentalNUB.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\DentalNUB.Interface.AssemblyInfoInputs.cache
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\DentalNUB.Interface.AssemblyInfo.cs
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\DentalNUB.Interface.csproj.CoreCompileInputs.cache
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\DentalNUB.Interface.sourcelink.json
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\DentalNUB.Interface.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\refint\DentalNUB.Interface.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\DentalNUB.Interface.pdb
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\ref\DentalNUB.Interface.dll

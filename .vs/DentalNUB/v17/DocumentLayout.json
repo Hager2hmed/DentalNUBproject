@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\APICourseTraining\\DentalNUB\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub.entities\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|solutionrelative:dentalnub.entities\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\appsettings.json",
+              "RelativeDocumentMoniker": "DentalNUB\\appsettings.json",
+              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\appsettings.json",
+              "RelativeToolTip": "DentalNUB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T19:39:25.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\Models\\DBContext.cs",
+              "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\DBContext.cs",
+              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\Models\\DBContext.cs",
+              "RelativeToolTip": "DentalNUB.Entities\\Models\\DBContext.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA/wCwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T19:05:57.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DentalNUB\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DentalNUB\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T18:44:01.887Z",
+              "EditorCaption": ""
             }
           ]
         }

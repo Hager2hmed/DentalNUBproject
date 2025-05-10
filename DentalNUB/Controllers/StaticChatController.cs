@@ -1,11 +1,9 @@
-﻿using DentalNUB.Api.Contracts.Requests;
-using DentalNUB.Api.Contracts.Responses;
-using DentalNUB.Api.Data;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using DentalNUB.Entities.Models;
+using DentalNUB.Entities;
 
 namespace DentalNUB.Api.Controllers;
 [Route("api/[controller]")]

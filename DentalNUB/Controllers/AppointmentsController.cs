@@ -6,6 +6,7 @@ using System.Security.Claims;
 using DentalNUB.Entities.Models;
 using DentalNUB.Entities;
 using static DentalNUB.Entities.Models.Patient;
+using Mapster;
 
 namespace DentalNUB.Api.Controllers
 {

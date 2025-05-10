@@ -1,12 +1,8 @@
-﻿using DentalNUB.Api.Entities;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using DentalNUB.Api.Contracts.Requests;
-using DentalNUB.Api.Contracts.Responses;
-using DentalNUB.Api.Data;
 using Microsoft.EntityFrameworkCore;
-
+using DentalNUB.Entities.Models;
+using DentalNUB.Entities;
 
 namespace DentalNUB.Api.Controllers;
 [Route("api/[controller]")]
@@ -88,7 +84,7 @@ public class ClinicsController : ControllerBase
 
         // نحذف السكاشن الفاضية (اللي مفيهاش طلاب)
         if (clinic.ClinicSections.Any())
-            _context.clinicSections.RemoveRange(clinic.ClinicSections);
+            _context.ClinicSections.RemoveRange(clinic.ClinicSections);
 
         // نحذف العيادة نفسها
         _context.Clinics.Remove(clinic);

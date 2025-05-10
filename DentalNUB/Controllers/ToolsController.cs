@@ -1,7 +1,4 @@
-﻿using DentalNUB.Api.Contracts.Requests;
-using DentalNUB.Api.Data;
-using DentalNUB.Api.Entities;
-using DentalNUB.Api.Services;
+﻿
 using DentalNUB.Entities;
 using DentalNUB.Entities.Models;
 using DentalNUB.Interface;

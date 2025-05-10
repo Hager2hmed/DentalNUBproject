@@ -6,8 +6,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using System.Net.Mail;
-
+using MailKit.Net.Smtp;
+using MailKit.Security;
+using MimeKit;
 
 namespace DentalNUB.Api.Controllers;
 

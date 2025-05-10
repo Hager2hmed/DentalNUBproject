@@ -1,9 +1,8 @@
-﻿using DentalNUB.Api.Data;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
+using DentalNUB.Entities.Models;
 
 namespace DentalNUB.Api.Controllers;
 [Route("api/[controller]")]

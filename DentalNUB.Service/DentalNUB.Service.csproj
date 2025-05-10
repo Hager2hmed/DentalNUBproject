@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="MailKit" Version="4.12.0" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="MimeKit" Version="4.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DentalNUB.Entities\DentalNUB.Entities.csproj" />
     <ProjectReference Include="..\DentalNUB.Interface\DentalNUB.Interface.csproj" />
   </ItemGroup>

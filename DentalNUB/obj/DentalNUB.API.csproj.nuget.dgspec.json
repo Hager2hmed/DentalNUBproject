@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB\\DentalNUB.API.csproj": {}
+    "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\DentalNUB.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\DentalNUB.Entities.csproj": {
+    "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\DentalNUB.Entities.csproj",
+        "projectUniqueName": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj",
         "projectName": "DentalNUB.Entities",
-        "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\DentalNUB.Entities.csproj",
-        "packagesPath": "C:\\Users\\engha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\obj\\",
+        "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj",
+        "packagesPath": "C:\\Users\\AT\\.nuget\\packages\\",
+        "outputPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\engha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Users\\AT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,12 +43,25 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.15, )"
@@ -76,6 +87,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.15, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
             }
           },
           "imports": [
@@ -94,25 +109,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\DentalNUB.Interface.csproj": {
+    "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Interface\\DentalNUB.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\DentalNUB.Interface.csproj",
+        "projectUniqueName": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Interface\\DentalNUB.Interface.csproj",
         "projectName": "DentalNUB.Interface",
-        "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\DentalNUB.Interface.csproj",
-        "packagesPath": "C:\\Users\\engha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\obj\\",
+        "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Interface\\DentalNUB.Interface.csproj",
+        "packagesPath": "C:\\Users\\AT\\.nuget\\packages\\",
+        "outputPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\engha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Users\\AT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,16 +135,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\DentalNUB.Entities.csproj": {
-                "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\DentalNUB.Entities.csproj"
+              "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj": {
+                "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj"
               }
             }
           }
@@ -143,158 +156,208 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\DentalNUB.Service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\DentalNUB.Service.csproj",
-        "projectName": "DentalNUB.Service",
-        "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\DentalNUB.Service.csproj",
-        "packagesPath": "C:\\Users\\engha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\engha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
         },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\DentalNUB.Entities.csproj": {
-                "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\DentalNUB.Entities.csproj"
-              },
-              "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\DentalNUB.Interface.csproj": {
-                "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\DentalNUB.Interface.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB\\DentalNUB.API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB\\DentalNUB.API.csproj",
-        "projectName": "DentalNUB.API",
-        "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB\\DentalNUB.API.csproj",
-        "packagesPath": "C:\\Users\\engha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\engha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\DentalNUB.Interface.csproj": {
-                "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\DentalNUB.Interface.csproj"
-              },
-              "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\DentalNUB.Service.csproj": {
-                "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\DentalNUB.Service.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Service\\DentalNUB.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Service\\DentalNUB.Service.csproj",
+        "projectName": "DentalNUB.Service",
+        "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Service\\DentalNUB.Service.csproj",
+        "packagesPath": "C:\\Users\\AT\\.nuget\\packages\\",
+        "outputPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj": {
+                "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj"
+              },
+              "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Interface\\DentalNUB.Interface.csproj": {
+                "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Interface\\DentalNUB.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\DentalNUB.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\DentalNUB.API.csproj",
+        "projectName": "DentalNUB.API",
+        "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\DentalNUB.API.csproj",
+        "packagesPath": "C:\\Users\\AT\\.nuget\\packages\\",
+        "outputPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj": {
+                "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj"
+              },
+              "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Interface\\DentalNUB.Interface.csproj": {
+                "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Interface\\DentalNUB.Interface.csproj"
+              },
+              "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Service\\DentalNUB.Service.csproj": {
+                "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Service\\DentalNUB.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -325,6 +388,10 @@
               "target": "Package",
               "version": "[8.0.15, )"
             },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
             "Nancy": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -349,7 +416,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,13 +1,11 @@
-﻿using DentalNUB.Api.Contracts.Requests;
-using DentalNUB.Api.Contracts.Responses;
-using DentalNUB.Api.Data;
-using DentalNUB.Api.Entities;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.Text.RegularExpressions;
+using DentalNUB.Entities.Models;
+using DentalNUB.Entities;
 
 namespace DentalNUB.Api.Controllers
 {
@@ -49,7 +47,7 @@ namespace DentalNUB.Api.Controllers
                 return BadRequest($"This clinic is only available for year {clinic.AllowedYear}");
 
             // 4. إيجاد أو إنشاء ClinicSection
-            var existingSections = await _context.clinicSections
+            var existingSections = await _context.ClinicSections
                 .Where(s => s.ClinicID == clinic.ClinicID && s.DoctorYear == request.DoctorYear)
                 .OrderBy(s => s.SectionName)
                 .ToListAsync();
@@ -101,7 +99,7 @@ namespace DentalNUB.Api.Controllers
             }
 
             // 5. إيجاد أو إنشاء ClinicSection
-            var clinicSection = await _context.clinicSections
+            var clinicSection = await _context.ClinicSections
                 .FirstOrDefaultAsync(s => s.ClinicID == clinic.ClinicID && s.SectionName == sectionName && s.DoctorYear == request.DoctorYear);
 
             if (clinicSection == null)
@@ -113,7 +111,7 @@ namespace DentalNUB.Api.Controllers
                     DoctorYear = request.DoctorYear,
                     MaxStudents = 30
                 };
-                _context.clinicSections.Add(clinicSection);
+                _context.ClinicSections.Add(clinicSection);
                 await _context.SaveChangesAsync();
             }
 

@@ -45,6 +45,9 @@ namespace DentalNUB.Entities.Models
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<PasswordResetCode> PasswordResetCodes { get; set; }
+
+        public DbSet<ToolPost> ToolPosts { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

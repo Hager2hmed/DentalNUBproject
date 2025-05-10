@@ -1,12 +1,11 @@
-﻿using DentalNUB.Api.Contracts.Requests;
-using DentalNUB.Api.Contracts.Responses;
-using DentalNUB.Api.Data;
-using DentalNUB.Api.Entities;
+﻿
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using DentalNUB.Entities.Models;
+using DentalNUB.Entities;
 
 namespace DentalNUB.Api.Controllers;
 [Route("api/[controller]")]
@@ -153,7 +152,7 @@ public class ProfileController : ControllerBase
                 }
 
                 // Find or create section
-                var section = await _context.clinicSections
+                var section = await _context.ClinicSections
                     .Include(s => s.Doctors)
                     .FirstOrDefaultAsync(s => s.ClinicID == newClinic.ClinicID && s.DoctorYear == request.DoctorYear);
 
@@ -168,7 +167,7 @@ public class ProfileController : ControllerBase
                         Doctors = new List<Doctor>()
                     };
 
-                    _context.clinicSections.Add(section);
+                    _context.ClinicSections.Add(section);
                 }
 
                 // Update doctor info

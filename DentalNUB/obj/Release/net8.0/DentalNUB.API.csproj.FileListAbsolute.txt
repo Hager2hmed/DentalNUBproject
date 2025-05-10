@@ -163,3 +163,9 @@ C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\bin\Release\net8.0\Dental
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\bin\Release\net8.0\DentalNUB.Entities.pdb
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\DentalNUB.API.csproj.AssemblyReference.cache
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\DentalNU.ECA831B2.Up2Date
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB\bin\Release\net8.0\BCrypt.Net-Next.dll
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB\bin\Release\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB\bin\Release\net8.0\MailKit.dll
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB\bin\Release\net8.0\Mapster.dll
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB\bin\Release\net8.0\Mapster.Core.dll
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB\bin\Release\net8.0\MimeKit.dll

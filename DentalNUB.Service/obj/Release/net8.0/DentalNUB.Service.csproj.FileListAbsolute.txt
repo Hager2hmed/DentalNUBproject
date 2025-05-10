@@ -14,3 +14,5 @@ C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\refint\DentalNUB.Service.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\DentalNUB.Service.pdb
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Service\obj\Release\net8.0\ref\DentalNUB.Service.dll
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB.Service\bin\Release\net8.0\DentalNUB.Interface.dll
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB.Service\bin\Release\net8.0\DentalNUB.Interface.pdb

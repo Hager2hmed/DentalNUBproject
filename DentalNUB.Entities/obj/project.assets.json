@@ -4633,24 +4633,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AT\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\engha\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\DentalNUB.Entities.csproj",
       "projectName": "DentalNUB.Entities",
-      "projectPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\DentalNUB.Entities.csproj",
-      "packagesPath": "C:\\Users\\AT\\.nuget\\packages\\",
-      "outputPath": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\obj\\",
+      "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\DentalNUB.Entities.csproj",
+      "packagesPath": "C:\\Users\\engha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
       ],
       "configFilePaths": [
-        "C:\\Users\\AT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\engha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4658,6 +4658,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4675,8 +4677,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -4741,7 +4742,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

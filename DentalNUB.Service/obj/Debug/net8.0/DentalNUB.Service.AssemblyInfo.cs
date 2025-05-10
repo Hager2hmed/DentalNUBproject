@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DentalNUB.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d9b2c1986707fe720e4cc4b9fba5eab60ab14ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca656a2fa199cb162afccc59d47a75c751481c60")]
 [assembly: System.Reflection.AssemblyProductAttribute("DentalNUB.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DentalNUB.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

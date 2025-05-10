@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using DentalNUB.Entities.Models;
+using DentalNUB.Interface;
+using DentalNUB.Services;
 
 namespace DentalNUB.API
 {
@@ -83,7 +85,10 @@ namespace DentalNUB.API
                 options.JsonSerializerOptions.PropertyNamingPolicy = null;
             });
 
-            //services.AddScoped<INotificationService, NotificationService>();
+            services.AddScoped<ICaseDistributionService, CaseDistributionService>();
+            services.AddScoped<IDiagnoseService, DiagnoseService>();
+            services.AddScoped<IImageService, ImageService>();
+            services.AddScoped<ITokenService, TokenService>();
             //services.AddScoped<IOrderService, OrderService>();
 
             services

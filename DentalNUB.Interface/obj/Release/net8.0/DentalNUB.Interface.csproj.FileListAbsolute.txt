@@ -10,3 +10,7 @@ C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\refint\DentalNUB.Interface.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\DentalNUB.Interface.pdb
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\ref\DentalNUB.Interface.dll
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB.Interface\bin\Release\net8.0\DentalNUB.Entities.dll
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB.Interface\bin\Release\net8.0\DentalNUB.Entities.pdb
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\DentalNUB.Interface.csproj.AssemblyReference.cache
+C:\Users\engha\source\repos\DentalNUBproject\DentalNUB.Interface\obj\Release\net8.0\DentalNU.D31AA21E.Up2Date

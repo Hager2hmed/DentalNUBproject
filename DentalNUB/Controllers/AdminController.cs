@@ -18,7 +18,7 @@ public class AdminController : ControllerBase
     }
 
     [HttpPost("CreateAdmin")]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public async Task<IActionResult> CreateAdmin([FromBody] CreateAdminRequest request)
     {
         // التأكد إذا كان الأدمن موجود في النظام

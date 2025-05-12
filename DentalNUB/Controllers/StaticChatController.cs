@@ -19,7 +19,7 @@ public class StaticChatController : ControllerBase
     }
 
     // Endpoint 1: لعرض الأسئلة
-    [Authorize(Roles = "Patient")]
+    //[Authorize(Roles = "Patient")]
 
     [HttpGet("GetQuestions")]
     public async Task<ActionResult<IEnumerable<QuestionResponse>>> GetQuestions()

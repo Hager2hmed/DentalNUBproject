@@ -7,7 +7,7 @@ using DentalNUB.Entities.Models;
 namespace DentalNUB.Api.Controllers;
 [Route("api/[controller]")]
 [ApiController]
-[Authorize]
+
 public class UserController : ControllerBase
 {
     private readonly DBContext _context;

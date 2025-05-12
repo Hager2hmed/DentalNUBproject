@@ -20,7 +20,7 @@ public class ProfileController : ControllerBase
     }
 
     [HttpGet("GetProfileInfo")]
-    [Authorize]
+   
     public async Task<IActionResult> GetProfile()
     {
         var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
@@ -93,7 +93,7 @@ public class ProfileController : ControllerBase
         return BadRequest("Invalid role");
     }
     [HttpPut("Edit doctor profile")]
-    [Authorize(Roles = "Doctor")]
+    //[Authorize(Roles = "Doctor")]
     public async Task<IActionResult> EditDoctorProfile([FromBody] EditDoctorProfileRequest request)
     {
         var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);

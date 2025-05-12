@@ -151,7 +151,7 @@ namespace DentalNUB.Api.Controllers
         }
 
 
-        [Authorize(Roles = "Doctor")]
+        //[Authorize(Roles = "Doctor")]
         [HttpGet("cases")]
         public async Task<IActionResult> GetDoctorCases()
         {
@@ -185,7 +185,7 @@ namespace DentalNUB.Api.Controllers
             return Ok(response);
         }
 
-        [Authorize(Roles = "Doctor")]
+        //[Authorize(Roles = "Doctor")]
         [HttpGet("cases/{caseId}")]
         public async Task<IActionResult> GetCaseDetails(int caseId)
         {

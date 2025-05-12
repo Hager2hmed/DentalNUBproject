@@ -23,7 +23,7 @@ namespace DentalNUB.Api.Controllers
 
         // GET: api/Appointments
         [HttpGet("GetAppointments")]
-        [Authorize(Roles = "Consultant")]
+        //[Authorize(Roles = "Consultant")]
         public async Task<ActionResult<IEnumerable<GetAppointmentResponse>>> GetAppointments()
         {
             var appointments = await _context.Appointments
@@ -65,7 +65,7 @@ namespace DentalNUB.Api.Controllers
 
 
         [HttpGet("GetPatientDetails/{appointId}")]
-        [Authorize(Roles = "Consultant")]
+        //[Authorize(Roles = "Consultant")]
         public async Task<ActionResult<GetAppointByIDResponse>> GetPatientDetails(int appointId)
         {
             var diagnose = await _context.Diagnoses

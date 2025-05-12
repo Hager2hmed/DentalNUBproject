@@ -17,7 +17,7 @@ public class ClinicsController : ControllerBase
     }
 
     [HttpPost("AddClinic")]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public async Task<IActionResult> AddClinic([FromBody] CreateClinicRequest request)
     {
         var existingClinic = await _context.Clinics
@@ -44,7 +44,7 @@ public class ClinicsController : ControllerBase
 
 
     [HttpPut("UpdateClinic/{id}")]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public async Task<IActionResult> UpdateClinic(int id, [FromBody] CreateClinicRequest request)
     {
         var clinic = await _context.Clinics.FindAsync(id);
@@ -67,7 +67,7 @@ public class ClinicsController : ControllerBase
 
    
     [HttpDelete("DeleteClinic/{id}")]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public async Task<IActionResult> DeleteClinic(int id)
     {
         var clinic = await _context.Clinics
@@ -97,7 +97,7 @@ public class ClinicsController : ControllerBase
 
 
     [HttpGet("GetAll")]
-    [Authorize(Roles = "Admin,Doctor,Consultant")]
+    //[Authorize(Roles = "Admin,Doctor,Consultant")]
     public async Task<ActionResult<List<ClinicResponse>>> GetAllClinics()
     {
         var clinics = await _context.Clinics.ToListAsync();

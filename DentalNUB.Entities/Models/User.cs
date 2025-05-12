@@ -1,14 +1,11 @@
-﻿namespace DentalNUB.Entities.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace DentalNUB.Entities.Models
 {
-
-    public class User
+    public class User : IdentityUser<int>
     {
-        public int UserId { get; set; }
         public string FullName { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
-        public string PasswordHash { get; set; } = string.Empty;
         public string Role { get; set; } = string.Empty;
-
 
         public Doctor? Doctor { get; set; }
         public Patient? Patient { get; set; }

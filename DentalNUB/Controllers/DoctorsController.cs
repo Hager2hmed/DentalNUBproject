@@ -127,7 +127,7 @@ namespace DentalNUB.Api.Controllers
                 ClinicID = clinic.ClinicID,
                 SectionID = clinicSection.SectionID,
                 SectionOrder = orderInSection,
-                UserId = user.UserId
+                UserId = user.Id
             };
 
             _context.Doctors.Add(doctor);

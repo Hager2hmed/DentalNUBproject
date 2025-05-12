@@ -21,7 +21,7 @@ public class UserController : ControllerBase
     public async Task<IActionResult> GetUserProfile()
     {
         // جيب الـ UserId من الـ JWT token
-        var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value; // غالبًا بيرجع Id كـ string
         if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int userId))
         {
             return Unauthorized("Invalid user ID.");
@@ -36,9 +36,9 @@ public class UserController : ControllerBase
             return Forbid("Admins are not allowed to access this endpoint.");
         }
 
-        // جيب بيانات الـ User من الـ database
+        // جيب بيانات الـ User من الـ database باستخدام Id بدل UserId
         var user = await _context.Users
-            .Where(u => u.UserId == userId)
+            .Where(u => u.Id == userId) // غيرت من u.UserId لـ u.Id
             .Select(u => new
             {
                 u.FullName,
@@ -57,7 +57,5 @@ public class UserController : ControllerBase
             FullName = user.FullName,
             Email = user.Email
         });
-
-
     }
 }

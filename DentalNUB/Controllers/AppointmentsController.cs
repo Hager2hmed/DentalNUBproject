@@ -152,13 +152,13 @@ namespace DentalNUB.Api.Controllers
             if (user == null)
                 return BadRequest("User not found.");
             // نحاول نجيب المريض المرتبط بالـ UserID
-            var patient = await _context.Patients.FirstOrDefaultAsync(p => p.UserId == user.UserId);
+            var patient = await _context.Patients.FirstOrDefaultAsync(p => p.UserId == user.Id);
 
             if (patient == null)
             {
                 // لو مش موجود، ننشئ واحد جديد
                 patient = request.PatientData.Adapt<Patient>();
-                patient.UserId = user.UserId;
+                patient.UserId = user.Id;
                 _context.Patients.Add(patient);
             }
             else

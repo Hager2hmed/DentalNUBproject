@@ -66,7 +66,7 @@ namespace DentalNUB.Api.Controllers
 
         // POST: api/Diagnoses
         [HttpPost("CreateDiagnose")]
-        [Authorize(Roles = "Consultant")]
+        //[Authorize(Roles = "Consultant")]
         public async Task<IActionResult> CreateDiagnose([FromBody] DiagnoseRequest request)
         {
             // ✅ جلب الإيميل من التوكن

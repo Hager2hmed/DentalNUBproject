@@ -8,7 +8,7 @@ using DentalNUB.Entities;
 namespace DentalNUB.Api.Controllers;
 [Route("api/[controller]")]
 [ApiController]
-[Authorize(Roles = "Patient")]
+//[Authorize(Roles = "Patient")]
 public class StaticChatController : ControllerBase
 {
     private readonly DBContext _context;
@@ -18,8 +18,8 @@ public class StaticChatController : ControllerBase
         _context = context;
     }
 
-    // Endpoint 1: لعرض الأسئلة
-    [Authorize(Roles = "Patient")]
+    
+
 
     [HttpGet("GetQuestions")]
     public async Task<ActionResult<IEnumerable<QuestionResponse>>> GetQuestions()
@@ -31,7 +31,7 @@ public class StaticChatController : ControllerBase
         return Ok(questions);
     }
 
-    // Endpoint 2: لعرض الإجابة الخاصة بسؤال معين
+    
     [HttpGet("{id}/answer")]
     public async Task<ActionResult<AnswerResponse>> GetAnswer([FromRoute]int id)
     {

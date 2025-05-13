@@ -1267,6 +1267,7 @@
           "DentalNUB.Entities": "1.0.0",
           "MailKit": "4.12.0",
           "Mapster": "7.4.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.15",
           "MimeKit": "4.12.0"
         },
         "compile": {
@@ -3383,6 +3384,7 @@
       "DentalNUB.Interface >= 1.0.0",
       "MailKit >= 4.12.0",
       "Mapster >= 7.4.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.15",
       "MimeKit >= 4.12.0"
     ]
   },
@@ -3397,7 +3399,7 @@
       "projectName": "DentalNUB.Service",
       "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\DentalNUB.Service.csproj",
       "packagesPath": "C:\\Users\\engha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Service\\obj\\",
+      "outputPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
@@ -3456,6 +3458,10 @@
             "target": "Package",
             "version": "[7.4.0, )"
           },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.15, )"
+          },
           "MimeKit": {
             "target": "Package",
             "version": "[4.12.0, )"
@@ -3480,5 +3486,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

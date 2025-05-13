@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Net;
 using System.Reflection;
-using DentalNUB.Entities.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -13,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace DentalNUB.Entities.Models
 {
-    public partial class DBContext : IdentityDbContext<AdminUser>
+    public class DBContext : IdentityDbContext<User>
     {
 
         private IConfiguration Configuration;
@@ -28,7 +27,7 @@ namespace DentalNUB.Entities.Models
         {
         }
 
-        public DbSet<AdminUser> AdminUsers { get; set; }
+        public DbSet<User> Users { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Answer> Answers { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
@@ -44,7 +43,6 @@ namespace DentalNUB.Entities.Models
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Question> Questions { get; set; }
-        public DbSet<User> Users { get; set; }
         public DbSet<PasswordResetCode> PasswordResetCodes { get; set; }
 
         public DbSet<ToolPost> ToolPosts { get; set; }

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 
-namespace DentalNUB.Services
+namespace DentalNUB.Service
 {
 
     public class ImageService : IImageService

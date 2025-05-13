@@ -6,34 +6,34 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace DentalNUB.Services
+namespace DentalNUB.Service
 {
 
     public class TokenService : ITokenService
     {
-        private readonly IConfiguration _config;
+        private readonly string _key = "678du7di50gtbwfrllbshtnlmaetipp2";
 
-        public TokenService(IConfiguration config)
+        public TokenService()
         {
-            _config = config;
+            
         }
+
         public Task<string> CreateToken(User user)
         {
             var claims = new[]
-                {
-                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Email, user.Email ?? ""),
                 new Claim(ClaimTypes.Role, user.Role ?? "")
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_key));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
-                issuer: _config["Jwt:Issuer"],
-                audience: _config["Jwt:Audience"],
+                
                 claims: claims,
-                expires: DateTime.Now.AddHours(2),
+                expires: DateTime.Now.AddDays(7),
                 signingCredentials: creds);
 
             return Task.FromResult(new JwtSecurityTokenHandler().WriteToken(token));

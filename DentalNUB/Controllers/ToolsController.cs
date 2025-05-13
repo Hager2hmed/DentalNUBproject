@@ -23,8 +23,8 @@ namespace DentalNUB.Api.Controllers
         }
 
         // دالة رفع أداة جديدة
-        [HttpPost]
-        [Authorize(Roles = "Doctor")]
+        [HttpPost("CreateToolPost")]
+        //[Authorize(Roles = "Doctor")]
         public async Task<IActionResult> CreateToolPost([FromForm] CreateToolRequest request)
         {
             var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
@@ -57,7 +57,7 @@ namespace DentalNUB.Api.Controllers
         }
 
         // دالة عرض كل الأدوات
-        [HttpGet]
+        //[HttpGet("GetAllTools")]
         [Authorize(Roles = "Doctor")]
         public async Task<IActionResult> GetAllTools()
         {
@@ -79,7 +79,7 @@ namespace DentalNUB.Api.Controllers
 
         // دالة عرض أداة واحدة بالتفصيل
         [HttpGet("{id}")]
-        [Authorize(Roles = "Doctor")]
+        //[Authorize(Roles = "Doctor")]
         public async Task<IActionResult> GetToolDetails(int id)
         {
             var tool = await _context.ToolPosts
@@ -105,7 +105,7 @@ namespace DentalNUB.Api.Controllers
 
         // دالة عرض الأدوات المجانية فقط
         [HttpGet("free")]
-        [Authorize(Roles = "Doctor")]
+        //[Authorize(Roles = "Doctor")]
         public async Task<IActionResult> GetFreeTools()
         {
             var freeTools = await _context.ToolPosts
@@ -127,7 +127,7 @@ namespace DentalNUB.Api.Controllers
 
         // دالة شراء الأداة
         [HttpPost("buy/{toolPostId}")]
-        [Authorize(Roles = "Doctor")]
+        //[Authorize(Roles = "Doctor")]
         public async Task<IActionResult> BuyTool(int toolPostId)
         {
             var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);

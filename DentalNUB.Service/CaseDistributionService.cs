@@ -3,7 +3,7 @@ using DentalNUB.Entities.Models;
 using DentalNUB.Interface;
 using Microsoft.EntityFrameworkCore;
 
-namespace DentalNUB.Services
+namespace DentalNUB.Service
 {
     public class CaseDistributionService : ICaseDistributionService
     {

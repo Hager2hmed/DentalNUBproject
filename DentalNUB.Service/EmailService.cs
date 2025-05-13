@@ -1,37 +1,42 @@
-﻿
-//using Microsoft.Extensions.Options;
-//using System.Net.Mail;
+﻿using MailKit.Net.Smtp;
+using MailKit.Security;
+using MimeKit;
+using DentalNUB.Services;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using DentalNUB.Interface;
 
-//namespace DentalNUB.Api.Services;
+namespace DentalNUB.Service
+{
+    public class EmailService : IEmailService
+    {
+        private readonly IConfiguration _config;
+        private readonly ILogger<EmailService> _logger;
 
-//public class EmailService : IEmailService
-//{
-//    private readonly EmailSettings _emailSettings;
-//    public EmailService(IOptions<EmailSettings> emailSettings)
-//    {
-//        _emailSettings = emailSettings.Value;
-//    }
-//    public async Task SendVerificationEmailAsync(string toEmail, string verificationCode)
-//    {
-//        var smtpClient = new SmtpClient(_emailSettings.SmtpServer)
-//        {
-//            Port = _emailSettings.SmtpPort,
-//            Credentials = new System.Net.NetworkCredential(_emailSettings.SenderEmail, _emailSettings.AppPassword),
-//            EnableSsl = true,
-//        };
+        public EmailService(IConfiguration config, ILogger<EmailService> logger)
+        {
+            _config = config;
+            _logger = logger;
+        }
 
-//        var mailMessage = new MailMessage
-//        {
-//            From = new MailAddress(_emailSettings.SenderEmail, _emailSettings.SenderName),
-//            Subject = "Verification Code for HealthCare App",
-//            Body = $"Your verification code is: <strong>{verificationCode}</strong>. It will expire in 30 minutes.",
-//            IsBodyHtml = true,
-//        };
+        public async Task SendVerificationEmail(string email, string code)
+        {
+            var mailSettings = _config.GetSection("MailSettings").Get<MailSettings>();
 
-//        mailMessage.To.Add(toEmail); // هنا بيبعت لإيميل المستخدم
+            var message = new MimeMessage();
+            message.From.Add(new MailboxAddress(mailSettings.DisplayName, mailSettings.Mail));
+            message.To.Add(new MailboxAddress("", email));
+            message.Subject = "Your Verification Code";
+            message.Body = new TextPart("plain")
+            {
+                Text = $"Your verification code is: {code}. It expires in 10 minutes."
+            };
 
-//        await smtpClient.SendMailAsync(mailMessage);
-//    }
-
-//}
-
+            using var client = new MailKit.Net.Smtp.SmtpClient();
+            await client.ConnectAsync(mailSettings.Host, mailSettings.Port, SecureSocketOptions.StartTls);
+            await client.AuthenticateAsync(mailSettings.Mail, mailSettings.Password);
+            await client.SendAsync(message);
+            await client.DisconnectAsync(true);
+        }
+    }
+}

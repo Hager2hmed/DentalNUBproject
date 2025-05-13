@@ -1,4 +1,4 @@
-﻿namespace DentalNUB.Services
+﻿namespace DentalNUB.Service
 {
     public class JwtSettings
     {

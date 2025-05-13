@@ -92,6 +92,7 @@ namespace DentalNUB.API
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IDoctorService, DoctorService>();
+            services.AddScoped<IAppointmentsService, AppointmentsService>();
             //services.AddScoped<IOrderService, OrderService>();
 
             services

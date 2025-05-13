@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace DentalNUB.Entities.Models
 {
-    public partial class DBContext : IdentityDbContext<User>
+    public class DBContext : IdentityDbContext<User>
     {
 
         private IConfiguration Configuration;

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 namespace DentalNUB.Interface;
 public interface IAuthService
 {
+    Task SignUpAsync(RegisterRequest request);
     Task<User> LoginAsync(LoginRequest request);
     Task VerifyCodeAsync(VerifyCodeRequest request);
     Task<User> VerifyEmailAsync(VerifyEmailRequest request);

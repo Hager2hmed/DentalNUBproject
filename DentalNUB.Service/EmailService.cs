@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using DentalNUB.Interface;
 
-namespace DentalNUB.Services
+namespace DentalNUB.Service
 {
     public class EmailService : IEmailService
     {

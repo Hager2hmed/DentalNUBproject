@@ -3601,6 +3601,7 @@
           "DentalNUB.Entities": "1.0.0",
           "MailKit": "4.12.0",
           "Mapster": "7.4.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.15",
           "MimeKit": "4.12.0"
         },
         "compile": {
@@ -3619,6 +3620,7 @@
           "DentalNUB.Interface": "1.0.0",
           "MailKit": "4.12.0",
           "Mapster": "7.4.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.15",
           "MimeKit": "4.12.0"
         },
         "compile": {
@@ -10454,6 +10456,7 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.15",
       "Microsoft.AspNetCore.Cors >= 2.3.0",
       "Microsoft.AspNetCore.Http >= 2.3.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.15",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 8.0.15",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.15",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.15",
@@ -10548,6 +10551,10 @@
           "Microsoft.AspNetCore.Http": {
             "target": "Package",
             "version": "[2.3.0, )"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.15, )"
           },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",

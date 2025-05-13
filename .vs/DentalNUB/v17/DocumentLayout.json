@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "E:\\APICourseTraining\\DentalNUB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{895879F6-CFF2-4377-82EB-61A92938ED1A}|DentalNUB.Service\\DentalNUB.Service.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub.service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{895879F6-CFF2-4377-82EB-61A92938ED1A}|DentalNUB.Service\\DentalNUB.Service.csproj|solutionrelative:dentalnub.service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub.entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|solutionrelative:dentalnub.entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub.entities\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|solutionrelative:dentalnub.entities\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,20 +11,12 @@
       "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub.entities\\models\\doctorsectionranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|solutionrelative:dentalnub.entities\\models\\doctorsectionranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A1B4DE1-89DF-40C9-ABD1-3933285E6CA6}|DentalNUB.Interface\\DentalNUB.Interface.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub.interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A1B4DE1-89DF-40C9-ABD1-3933285E6CA6}|DentalNUB.Interface\\DentalNUB.Interface.csproj|solutionrelative:dentalnub.interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|e:\\apicoursetraining\\dentalnub\\dentalnub\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +33,19 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DentalNUB\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DentalNUB\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:48:20.748Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -62,91 +59,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DoctorsController.cs",
-              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\DoctorsController.cs",
-              "RelativeDocumentMoniker": "DentalNUB\\Controllers\\DoctorsController.cs",
-              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\DoctorsController.cs",
-              "RelativeToolTip": "DentalNUB\\Controllers\\DoctorsController.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAYwIIAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DoctorSectionRanking.cs",
+              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\Models\\DoctorSectionRanking.cs",
+              "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\DoctorSectionRanking.cs",
+              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\Models\\DoctorSectionRanking.cs",
+              "RelativeToolTip": "DentalNUB.Entities\\Models\\DoctorSectionRanking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:07:58.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "DentalNUB\\Controllers\\UserController.cs",
-              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\UserController.cs",
-              "RelativeToolTip": "DentalNUB\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:02:16.038Z",
+              "WhenOpened": "2025-05-13T14:39:08.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Service\\AuthService.cs",
-              "RelativeDocumentMoniker": "DentalNUB.Service\\AuthService.cs",
-              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Service\\AuthService.cs",
-              "RelativeToolTip": "DentalNUB.Service\\AuthService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:40:51.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Interface\\IAuthService.cs",
-              "RelativeDocumentMoniker": "DentalNUB.Interface\\IAuthService.cs",
-              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Interface\\IAuthService.cs",
-              "RelativeToolTip": "DentalNUB.Interface\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:40:12.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "DentalNUB\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "DentalNUB\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAowLcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T18:44:01.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\Models\\User.cs",
-              "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\User.cs",
-              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\Models\\User.cs",
-              "RelativeToolTip": "DentalNUB.Entities\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:23:30.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "DBContext.cs",
               "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\Models\\DBContext.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\DBContext.cs",
               "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB.Entities\\Models\\DBContext.cs",
               "RelativeToolTip": "DentalNUB.Entities\\Models\\DBContext.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA5wBYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T19:05:57.961Z",
               "EditorCaption": ""
@@ -154,28 +86,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppointmentsController.cs",
-              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\AppointmentsController.cs",
-              "RelativeDocumentMoniker": "DentalNUB\\Controllers\\AppointmentsController.cs",
-              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\AppointmentsController.cs",
-              "RelativeToolTip": "DentalNUB\\Controllers\\AppointmentsController.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAswKAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:08:36.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Startup.cs",
               "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Startup.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Startup.cs",
               "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Startup.cs",
               "RelativeToolTip": "DentalNUB\\Startup.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwA8AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:14:23.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:14:23.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "DentalNUB\\Controllers\\DoctorsController.cs",
+              "ToolTip": "E:\\APICourseTraining\\DentalNUB\\DentalNUB\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "DentalNUB\\Controllers\\DoctorsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwDAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T19:07:58.452Z"
             }
           ]
         }

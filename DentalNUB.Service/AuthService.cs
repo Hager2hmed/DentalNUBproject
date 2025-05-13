@@ -25,6 +25,52 @@ public class AuthService : IAuthService
         _tokenService = tokenService;
     }
 
+    public async Task SignUpAsync(RegisterRequest request)
+    {
+        // 1. Check if passwords match
+        if (request.Password != request.ConfirmPassword)
+            throw new Exception("كلمة المرور وتأكيدها غير متطابقتين.");
+
+        // 2. Validate input
+        if (string.IsNullOrEmpty(request.Email) || string.IsNullOrEmpty(request.FullName) || string.IsNullOrEmpty(request.Password))
+            throw new Exception("الإيميل والاسم الكامل وكلمة المرور مطلوبة.");
+
+        // 3. Check if email already exists
+        try
+        {
+            var existingUser = await LoginAsync(new LoginRequest { Email = request.Email, Password = request.Password });
+            if (existingUser != null)
+                throw new Exception("الإيميل مستخدم بالفعل.");
+        }
+        catch (Exception)
+        {
+            // Ignore exception, means user doesn't exist, which is what we want
+        }
+
+        // 4. Validate Role
+        var validRoles = new[] { "Doctor", "Consultant", "Patient" };
+        if (string.IsNullOrEmpty(request.Role) || !validRoles.Contains(request.Role))
+            throw new Exception("الدور غير صحيح. يرجى اختيار Doctor أو Consultant أو Patient.");
+
+        // 5. Generate random verification code (6 digits)
+        var verificationCode = new Random().Next(100000, 999999).ToString();
+
+        // 6. Save verification code
+        var resetCode = new PasswordResetCode
+        {
+            Email = request.Email,
+            Code = verificationCode,
+            Expiration = DateTime.UtcNow.AddMinutes(10),
+            FullName = request.FullName,
+            Role = request.Role,
+            Password = request.Password
+        };
+        _context.PasswordResetCodes.Add(resetCode);
+        await _context.SaveChangesAsync();
+
+        // 7. Send verification code via email
+        await _emailService.SendVerificationEmail(request.Email, verificationCode);
+    }
     public async Task<User> LoginAsync(LoginRequest request)
     {
         var user = await _userManager.FindByEmailAsync(request.Email);

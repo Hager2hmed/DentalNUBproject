@@ -10,7 +10,6 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using DentalNUB.Entities.Models;
 using DentalNUB.Interface;
-using DentalNUB.Services;
 using DentalNUB.Service;
 
 namespace DentalNUB.API
@@ -50,7 +49,7 @@ namespace DentalNUB.API
             //    options.UseSqlServer(Configuration.GetConnectionString("DBConnection"));//, b => b.MigrationsAssembly("Shopping.Entity"));
             //});
             //services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<DBContext>();
-            services.AddIdentity<User,IdentityRole>(options =>
+            services.AddIdentity<User,IdentityRole<int>>(options =>
             {
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequiredLength = 4;
@@ -92,6 +91,7 @@ namespace DentalNUB.API
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IDoctorService, DoctorService>();
             //services.AddScoped<IOrderService, OrderService>();
 
             services

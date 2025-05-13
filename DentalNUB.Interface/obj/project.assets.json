@@ -3360,6 +3360,7 @@
       "DentalNUB.Entities >= 1.0.0",
       "MailKit >= 4.12.0",
       "Mapster >= 7.4.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.15",
       "MimeKit >= 4.12.0"
     ]
   },
@@ -3428,6 +3429,10 @@
           "Mapster": {
             "target": "Package",
             "version": "[7.4.0, )"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.15, )"
           },
           "MimeKit": {
             "target": "Package",

@@ -6,6 +6,11 @@ C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\DentalNUB.API.pdb
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\BCrypt.Net-Next.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\BouncyCastle.Cryptography.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\MailKit.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Mapster.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Mapster.Core.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -42,6 +47,7 @@ C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\MimeKit.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Nancy.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
@@ -73,7 +79,7 @@ C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\DentalNUB.Entities.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\DentalNUB.Interface.dll
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\DentalNUB.Service.dll
+C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\DentalNUB.Entities.pdb
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\DentalNUB.Interface.pdb
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\DentalNUB.Service.pdb
-C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\DentalNUB.Entities.pdb
 C:\Users\engha\Source\Repos\DentalNUBproject\DentalNUB\obj\Release\net8.0\PubTmp\Out\DentalNUB.API.deps.json

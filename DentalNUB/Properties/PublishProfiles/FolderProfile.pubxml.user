@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\Projects Publish\DentalPublish</_PublishTargetUrl>
-    <History>True|2025-05-10T22:48:06.5314187Z||;True|2025-05-09T21:51:44.5476658+03:00||;True|2025-05-09T21:51:40.3978754+03:00||;True|2025-05-09T02:08:05.8664224+03:00||;</History>
+    <History>True|2025-05-12T17:49:32.0855771Z||;True|2025-05-12T20:39:14.3788146+03:00||;True|2025-05-12T20:31:03.6070459+03:00||;True|2025-05-12T19:48:26.2790827+03:00||;True|2025-05-11T01:48:06.5314187+03:00||;True|2025-05-09T21:51:44.5476658+03:00||;True|2025-05-09T21:51:40.3978754+03:00||;True|2025-05-09T02:08:05.8664224+03:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

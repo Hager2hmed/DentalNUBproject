@@ -121,6 +121,8 @@ namespace DentalNUB.API
             app.UseRouting();
             app.UseAuthorization();
             app.UseStaticFiles();
+            app.UseDeveloperExceptionPage();
+
             app.UseCors(MyAllowSpecificOrigins);
             app.UseEndpoints(endpoints =>
             {

@@ -121,7 +121,7 @@
         "projectName": "DentalNUB.Interface",
         "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\DentalNUB.Interface.csproj",
         "packagesPath": "C:\\Users\\engha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Interface\\obj\\",
+        "outputPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
@@ -209,7 +209,7 @@
         "projectName": "DentalNUB.Service",
         "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\DentalNUB.Service.csproj",
         "packagesPath": "C:\\Users\\engha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Service\\obj\\",
+        "outputPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
@@ -300,7 +300,7 @@
         "projectName": "DentalNUB.API",
         "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB\\DentalNUB.API.csproj",
         "packagesPath": "C:\\Users\\engha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\obj\\",
+        "outputPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"

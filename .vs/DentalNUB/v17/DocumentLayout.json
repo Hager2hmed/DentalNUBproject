@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub\\controllers\\dignosescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\controllers\\dignosescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub.entities\\contracts\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|solutionrelative:dentalnub.entities\\contracts\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub\\controllers\\dignosescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\controllers\\dignosescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub\\controllers\\clinicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|solutionrelative:dentalnub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1033DA6A-C7B5-45F7-BC88-E4A578039B03}|DentalNUB\\DentalNUB.API.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub\\controllers\\toolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -231,10 +235,6 @@
       "RelativeMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|solutionrelative:dentalnub.entities\\contracts\\requests\\resetpasswordrequest .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub.entities\\contracts\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|solutionrelative:dentalnub.entities\\contracts\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|c:\\users\\engha\\source\\repos\\dentalnubproject\\dentalnub.entities\\contracts\\requests\\questionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF330E87-BD45-4219-8573-0D9BE360A926}|DentalNUB.Entities\\DentalNUB.Entities.csproj|solutionrelative:dentalnub.entities\\contracts\\requests\\questionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -302,7 +302,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Bookmark",
@@ -382,46 +382,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "DignosesController.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\DignosesController.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Controllers\\DignosesController.cs",
               "ToolTip": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\DignosesController.cs",
               "RelativeToolTip": "DentalNUB\\Controllers\\DignosesController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T21:32:54.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CaseAssignmentController.cs",
-              "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\CaseAssignmentController.cs",
-              "RelativeDocumentMoniker": "DentalNUB\\Controllers\\CaseAssignmentController.cs",
-              "ToolTip": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\CaseAssignmentController.cs",
-              "RelativeToolTip": "DentalNUB\\Controllers\\CaseAssignmentController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T21:32:09.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Startup.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Startup.cs",
               "ToolTip": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Startup.cs",
               "RelativeToolTip": "DentalNUB\\Startup.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowFwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T18:05:17.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "DoctorsController.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\DoctorsController.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Controllers\\DoctorsController.cs",
@@ -434,33 +421,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\AuthController.cs",
               "RelativeToolTip": "DentalNUB\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAEwH8AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T21:30:32.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\appsettings.json",
               "RelativeDocumentMoniker": "DentalNUB\\appsettings.json",
               "ToolTip": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\appsettings.json",
               "RelativeToolTip": "DentalNUB\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-09T18:04:20.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Requests\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Requests\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Requests\\RegisterRequest.cs",
+              "RelativeToolTip": "DentalNUB.Entities\\Contracts\\Requests\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T19:34:40.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "CaseAssignmentController.cs",
+              "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\CaseAssignmentController.cs",
+              "RelativeDocumentMoniker": "DentalNUB\\Controllers\\CaseAssignmentController.cs",
+              "ToolTip": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\CaseAssignmentController.cs",
+              "RelativeToolTip": "DentalNUB\\Controllers\\CaseAssignmentController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:32:09.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ProfileController .cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\ProfileController .cs",
               "RelativeDocumentMoniker": "DentalNUB\\Controllers\\ProfileController .cs",
@@ -473,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ClinicsController.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\ClinicsController.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Controllers\\ClinicsController.cs",
@@ -481,12 +493,11 @@
               "RelativeToolTip": "DentalNUB\\Controllers\\ClinicsController.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAkwC8AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T22:28:01.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T22:28:01.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AppointmentsController.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\AppointmentsController.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Controllers\\AppointmentsController.cs",
@@ -499,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ToolsController.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\ToolsController.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Controllers\\ToolsController.cs",
@@ -511,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Controllers\\AdminController.cs",
@@ -523,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Service\\UserService.cs",
               "RelativeDocumentMoniker": "DentalNUB.Service\\UserService.cs",
@@ -535,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MailSettings.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Service\\MailSettings.cs",
               "RelativeDocumentMoniker": "DentalNUB.Service\\MailSettings.cs",
@@ -547,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Service\\TokenService.cs",
               "RelativeDocumentMoniker": "DentalNUB.Service\\TokenService.cs",
@@ -559,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CreateAppointmentRequest.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Requests\\CreateAppointmentRequest.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Requests\\CreateAppointmentRequest.cs",
@@ -571,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "JwtSettings.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Service\\JwtSettings.cs",
               "RelativeDocumentMoniker": "DentalNUB.Service\\JwtSettings.cs",
@@ -583,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Service\\EmailService.cs",
               "RelativeDocumentMoniker": "DentalNUB.Service\\EmailService.cs",
@@ -595,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ImageService .cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Service\\ImageService .cs",
               "RelativeDocumentMoniker": "DentalNUB.Service\\ImageService .cs",
@@ -607,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "DiagnoseService.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Service\\DiagnoseService.cs",
               "RelativeDocumentMoniker": "DentalNUB.Service\\DiagnoseService.cs",
@@ -619,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CaseDistributionService.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Service\\CaseDistributionService.cs",
               "RelativeDocumentMoniker": "DentalNUB.Service\\CaseDistributionService.cs",
@@ -631,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "DBContext.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\DBContext.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\DBContext.cs",
@@ -643,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AppointmentResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\AppointmentResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\AppointmentResponse.cs",
@@ -655,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Controllers\\WeatherForecastController.cs",
@@ -663,11 +674,12 @@
               "RelativeToolTip": "DentalNUB\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAADgvxUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T22:55:20.773Z"
+              "WhenOpened": "2025-05-08T22:55:20.773Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "DentalNUB\\Controllers\\ValuesController.cs",
@@ -679,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "UpdateProfileRequest.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Requests\\UpdateProfileRequest.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Requests\\UpdateProfileRequest.cs",
@@ -691,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\User.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\User.cs",
@@ -703,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ToolPost.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\ToolPost.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\ToolPost.cs",
@@ -715,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\Question.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\Question.cs",
@@ -727,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\Patient.cs",
@@ -739,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "PasswordResetCode.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\PasswordResetCode.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\PasswordResetCode.cs",
@@ -751,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\Notification.cs",
@@ -763,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "EmailVerificationCode.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\EmailVerificationCode.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\EmailVerificationCode.cs",
@@ -775,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "DoctorSectionRanking.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\DoctorSectionRanking.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\DoctorSectionRanking.cs",
@@ -787,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\Doctor.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\Doctor.cs",
@@ -799,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Dignose.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\Dignose.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\Dignose.cs",
@@ -811,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Consultant.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\Consultant.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\Consultant.cs",
@@ -823,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ClinicSection.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\ClinicSection.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\ClinicSection.cs",
@@ -835,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Clinic.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\Clinic.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\Clinic.cs",
@@ -847,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ChatNUB.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\ChatNUB.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\ChatNUB.cs",
@@ -859,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "ChatMessage.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\ChatMessage.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\ChatMessage.cs",
@@ -871,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\Appointment.cs",
@@ -883,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Answer.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\Answer.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\Answer.cs",
@@ -895,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "PatientProfileResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\PatientProfileResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\PatientProfileResponse.cs",
@@ -907,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\LoginResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\LoginResponse.cs",
@@ -919,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "GetAppointmentResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\GetAppointmentResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\GetAppointmentResponse.cs",
@@ -931,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\Admin.cs",
@@ -943,7 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "AdminUser.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Models\\AdminUser.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Models\\AdminUser.cs",
@@ -955,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "GetAppointByIDResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\GetAppointByIDResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\GetAppointByIDResponse.cs",
@@ -967,7 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "DoctorProfileResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\DoctorProfileResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\DoctorProfileResponse.cs",
@@ -979,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "DignoseResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\DignoseResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\DignoseResponse.cs",
@@ -991,7 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "ConsultantProfileResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\ConsultantProfileResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\ConsultantProfileResponse.cs",
@@ -1003,7 +1015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "ClinicResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\ClinicResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\ClinicResponse.cs",
@@ -1015,7 +1027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "CasesDetailsResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\CasesDetailsResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\CasesDetailsResponse.cs",
@@ -1027,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "AnswerResponse.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Responses\\AnswerResponse.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Responses\\AnswerResponse.cs",
@@ -1039,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "VerifyEmailRequest.cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Requests\\VerifyEmailRequest.cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Requests\\VerifyEmailRequest.cs",
@@ -1051,7 +1063,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "VerifyCodeRequest .cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Requests\\VerifyCodeRequest .cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Requests\\VerifyCodeRequest .cs",
@@ -1063,7 +1075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "ResetPasswordRequest .cs",
               "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Requests\\ResetPasswordRequest .cs",
               "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Requests\\ResetPasswordRequest .cs",
@@ -1072,18 +1084,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T19:34:51.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Requests\\RegisterRequest.cs",
-              "RelativeDocumentMoniker": "DentalNUB.Entities\\Contracts\\Requests\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Entities\\Contracts\\Requests\\RegisterRequest.cs",
-              "RelativeToolTip": "DentalNUB.Entities\\Contracts\\Requests\\RegisterRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T19:34:40.91Z"
             },
             {
               "$type": "Document",
@@ -1233,9 +1233,9 @@
               "$type": "Document",
               "DocumentIndex": 71,
               "Title": "DentalNUB.API.csproj",
-              "DocumentMoniker": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\DentalNUB.API.csproj",
+              "DocumentMoniker": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB\\DentalNUB.API.csproj",
               "RelativeDocumentMoniker": "DentalNUB\\DentalNUB.API.csproj",
-              "ToolTip": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB\\DentalNUB.API.csproj",
+              "ToolTip": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB\\DentalNUB.API.csproj",
               "RelativeToolTip": "DentalNUB\\DentalNUB.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

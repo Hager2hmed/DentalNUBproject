@@ -121,7 +121,7 @@
         "projectName": "DentalNUB.Interface",
         "projectPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\DentalNUB.Interface.csproj",
         "packagesPath": "C:\\Users\\engha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engha\\source\\repos\\DentalNUBproject\\DentalNUB.Interface\\obj\\",
+        "outputPath": "C:\\Users\\engha\\Source\\Repos\\DentalNUBproject\\DentalNUB.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"

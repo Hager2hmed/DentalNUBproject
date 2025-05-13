@@ -34,7 +34,7 @@ public class AuthController : ControllerBase
             var response = new
             {
                 Token = token,
-                UserId = user.Id,
+                UserId = user.UserId,
                 Role = user.Role,
                 FullName = user.FullName
             };
@@ -77,7 +77,7 @@ public class AuthController : ControllerBase
                 Name = user.FullName,
                 Role = user.Role,
                 RequiresAdditionalInfo = user.Role == "Doctor",
-                UserId = user.Id
+                UserId = user.UserId
             });
         }
         catch (Exception ex)
